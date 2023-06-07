@@ -1,0 +1,153 @@
+body {
+    background: white;
+    font-family: 'Kanit', sans-serif;
+    color: #49998a;
+}
+
+.luna {
+    font-size: 250%;
+    color: aquamarine;
+    margin-left: 25%;
+    text-shadow: -1px -1px 0 #0ac7a4, 1px -1px 0 #0ac7a4, -1px 1px 0 #0ac7a4, 1px 1px 0 #0ac7a4;
+}
+
+.what {
+    border-radius: 25px;
+    background-color: #a6ffef;
+
+    margin-left: 15%;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+
+    box-shadow: 60px -16px #49998a;
+}
+
+.how-work {
+    border-radius: 25px;
+    background-color: #a6ffef;
+
+    margin-left: auto;
+    margin-right: 10%;
+    width: 50%;
+    padding: 10px;
+
+    text-align: right;
+
+    box-shadow: 60px -16px #49998a;
+}
+
+.where{
+    border-radius: 25px;
+    background-color: #a6ffef;
+
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+
+    box-shadow: 60px -16px #49998a;
+}
+
+.title {
+    font-size: 150%;
+    color: #0ac7a4;
+}
+
+a {
+    border-radius: 25px;
+    border: none;
+    box-shadow: none;
+    font-size: 150%;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #0ac7a4;
+    color: white;
+}
+
+.bottom {
+    border-radius: 25px;
+    background-color: #49998a;
+    margin: 25px;
+    padding: 1px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1600px) {    
+    .luna {
+        font-size: 550%;
+        color: aquamarine;
+        margin-left: 25%;
+        text-shadow: -1px -1px 0 #0ac7a4, 1px -1px 0 #0ac7a4, -1px 1px 0 #0ac7a4, 1px 1px 0 #0ac7a4;
+    }
+    
+    .what {
+        border-radius: 25px;
+        background-color: #a6ffef;
+    
+        margin-left: 7.5%;
+        margin-right: auto;
+        width: 75%;
+        padding: 10px;
+    
+        box-shadow: 60px -16px #49998a;
+    }
+    
+    .how-work {
+        border-radius: 25px;
+        background-color: #a6ffef;
+    
+        margin-left: auto;
+        margin-right: 10%;
+        width: 75%;
+        padding: 10px;
+    
+        text-align: right;
+    
+        box-shadow: 60px -16px #49998a;
+    }
+    
+    .where{
+        border-radius: 25px;
+        background-color: #a6ffef;
+    
+        margin-left: 7.5%;
+        margin-right: auto;
+        width: 75%;
+        padding: 10px;
+    
+        box-shadow: 60px -16px #49998a;
+    }
+    
+    .title {
+        font-size: 300%;
+        color: #0ac7a4;
+    }
+    
+    a {
+        border-radius: 25px;
+        border: none;
+        box-shadow: none;
+        font-size: 350%;
+        background: #0ac7a4;
+        color: white;
+        text-decoration: none;
+        padding-left: 3px;
+        padding-right: 3px;
+
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .bottom {
+        border-radius: 25px;
+        background-color: #49998a;
+        margin: 25px;
+        padding: 1px;
+        text-align: center;
+        color: white;
+    }
+}
