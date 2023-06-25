@@ -52,7 +52,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/LonaDB/Server' }
+      { icon: 'github', link: 'https://github.com/LonaDB/Server' },
+      { icon: 'discord', link: 'https://discord.gg/tBWVGQt8sP' }
     ]
   }
 })
