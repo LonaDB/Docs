@@ -5,6 +5,8 @@ export default defineConfig({
   title: "LonaDB",
   description: "JSON based Database written in JavaScript",
   themeConfig: {
+    logo: 'https://raw.githubusercontent.com/LonaDB/Website/main/.vitepress/logo_lonadb.png',
+    
     search: {
       provider: 'local'
     },
