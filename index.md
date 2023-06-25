@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "Home"
+  name: "LonaDB"
   text: "JSON based Database written in JavaScript"
   tagline: LonaDB is an early-stage prototype of a JavaScript-based database.
   actions:
