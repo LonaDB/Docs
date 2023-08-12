@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/LonaDB/Server
+  image: 
+    src: /logo_large.svg
+    alt: LonaDB Logo
 
 features:
   - title: What is LonaDB?

@@ -9,7 +9,7 @@ const description = 'JSON based Database written in JavaScript'
 export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
-    ['link', { rel: 'alternate icon', href: '/favicon.ico', type: 'image/png', sizes: '16x16' }],
+    ['meta', { name: 'theme-color', content: '#3B82F6' }],
     ['meta', { name: 'author', content: 'Keksi' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { name: 'og:title', content: title }],
@@ -52,8 +52,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/LonaDB/Server' },
-      { icon: 'discord', link: 'https://discord.gg/tBWVGQt8sP' }
+      { icon: 'discord', link: 'https://discord.gg/tBWVGQt8sP' },
+      { icon: 'github', link: 'https://github.com/LonaDB/Server' }
     ]
   }
 })
