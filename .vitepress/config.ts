@@ -9,7 +9,7 @@ const description = 'JSON based Database written in JavaScript'
 export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
-    ['meta', { name: 'theme-color', content: '#3B82F6' }],
+    ['meta', { name: 'theme-color', content: '#86EFAC' }],
     ['meta', { name: 'author', content: 'Keksi' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { name: 'og:title', content: title }],
