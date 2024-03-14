@@ -1,9 +1,9 @@
 import { defineConfig } from 'vitepress'
 
-const ogUrl = 'https://lona.js.org/'
+const ogUrl = 'https://docs.lona-development.org/'
 const ogImage = `${ogUrl}og.png#1`
 const title = 'Lona Development'
-const description = 'JSON based Database written in JavaScript'
+const description = 'JSON based Database written in PHP'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -22,7 +22,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:url', content: ogUrl }],
   ],
   title: "Lona Development",
-  description: "JSON based and written in PHP",
+  description: "JSON based database and written in PHP",
   themeConfig: {
     logo: '/favicon.svg',
     search: {
@@ -38,14 +38,26 @@ export default defineConfig({
       {
         text: 'Introduction',
         items: [
-          { text: 'Getting Started', link: '/guide/getting-started' }
+          { text: 'Getting Started', link: '/guide/getting-started' },
+          { text: 'Installation', link: '/guide/install' },
+          { text: 'Webinterface', link: '/guide/webinterface' },
+          { text: 'Clients', link: '/guide/clients' },
+          { text: 'Plugins', link: '/guide/plugins' }
+        ]
+      },
+      {
+        text: 'Clients',
+        items: [
+          { text: 'PHP', link: '/client/php' },
+          { text: 'JavaScript', link: '/client/javascript' },
+          { text: 'Python', link: '/client/python' }
         ]
       }
     ],
 
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/tBWVGQt8sP' },
-      { icon: 'github', link: 'https://github.com/LonaDB/Server' }
+      { icon: 'github', link: 'https://github.com/LonaDB' }
     ]
   }
 })

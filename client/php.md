@@ -1,41 +1,33 @@
 ## Installation
 
-You can install the JavaScript-Client library using npm:
-
-```bash
-npm install lonadb-client
-```
+You can use the LonaDB PHP Client by including it in your project. Simply download the `LonaDB.php` file and include it in your PHP project.
 
 ## Usage
 
-To use the LonaDB Client library, follow these steps:
+To use the `LonaDB` PHP Client, follow these steps:
 
-1. Import the required modules and classes:
+1. Include the `LonaDB` class in your PHP file:
 
-```javascript
-const LonaClient = require("lonadb-client");
+```php
+require_once('path/to/LonaDB.php');
 ```
 
-2. Create an instance of the `LonaDB-Client` class:
+2. Create an instance of the `LonaDB` class by providing the required connection details:
 
-```javascript
-const client = new LonaClient(host, port, name, password);
+```php
+$client = new LonaDB($host, $port, $name, $password);
 ```
 
-Replace `host`, `port`, `name`, and `password` with the appropriate values for your LonaDB Server.
+Replace `$host`, `$port`, `$name`, and `$password` with the appropriate values for your LonaDB Server.
 
 3. Use the provided methods to interact with the server:
 
-```javascript
+```php
 // Example: Get a list of tables
-client.getTables()
-    .then(tables => {
-        console.log("List of tables:");
-        console.log(tables);
-    })
-    .catch(error => {
-        console.error("Error:", error);
-    });
+$tables = $client->getTables("username");
+
+// Display the list of tables
+print_r($tables);
 ```
 
 ## Available Methods
@@ -100,6 +92,15 @@ Retrieves the raw permission data for a user.
 
 Adds a permission to a user.
 
+### `createFunction(name, content)`
+
+Create a function which can be executed whenever you want. Just like eval.
+Content = string of PHP code
+
+### `executeFunction(name)`
+
+Executes the function
+
 ### `eval(function)`
 
 Runs the function (must be a string of PHP code) </br>
@@ -108,4 +109,4 @@ Response: {"success": true, "response": "wtf", "process": processID}
 
 ## License
 
-This project is licensed under the GNU Affero General Public License version 3 (GNU AGPL-3.0)
+This project is licensed under the GNU Affero General Public License version 3 (GNU AGPL-3.0).
