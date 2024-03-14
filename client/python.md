@@ -107,8 +107,8 @@ Executes the function
 
 ### `eval(func)`
 
-Runs the function (must be a string of PHP code)
-Example: "if ($abc == 1234) return 'wtf';"
+Runs the function (must be a string of PHP code) <br/>
+Example: "if ($abc == 1234) return 'wtf';" <br/>
 Response: {"success": True, "response": "wtf", "process": processID}
 
 ## License
