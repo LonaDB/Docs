@@ -1,5 +1,5 @@
 # Prerequisites
-Make sure you have curl installed.</br>
+Make sure you have curl installed.<br/>
 If not: 
 ```bash 
 sudo apt-get install curl
