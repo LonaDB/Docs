@@ -41,16 +41,15 @@ export default defineConfig({
           { text: 'Getting Started', link: '/guide/getting-started' },
           { text: 'Installation', link: '/guide/install' },
           { text: 'Webinterface', link: '/guide/webinterface' },
-          { text: 'Clients', link: '/guide/clients' },
-          { text: 'Plugins', link: '/guide/plugins' }
+          { text: 'Clients', link: '/guide/clients' }
         ]
       },
       {
         text: 'Clients',
         items: [
-          { text: 'PHP', link: '/client/php' },
-          { text: 'JavaScript', link: '/client/javascript' },
-          { text: 'Python', link: '/client/python' }
+          { text: 'PHP', link: '/guide/php' },
+          { text: 'JavaScript', link: '/guide/javascript' },
+          { text: 'Python', link: '/guide/python' }
         ]
       }
     ],
