@@ -43,14 +43,6 @@ export default defineConfig({
           { text: 'Webinterface', link: '/guide/webinterface' },
           { text: 'Clients', link: '/guide/clients' }
         ]
-      },
-      {
-        text: 'Clients',
-        items: [
-          { text: 'PHP', link: '/guide/php' },
-          { text: 'JavaScript', link: '/guide/javascript' },
-          { text: 'Python', link: '/guide/python' }
-        ]
       }
     ],
 
