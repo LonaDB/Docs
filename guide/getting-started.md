@@ -1,5 +1,5 @@
 # LonaDB
-LonaDB is a document-oriented DBMS written in PHP. It utilizes AES-encrypted JSON files to store data.</br>
+LonaDB is a document-oriented DBMS written in PHP. It utilizes AES-encrypted JSON files to store data.<br/>
 The communication between the server and clients happens with a TCP-socket using our own API.
 
 ## Important links
