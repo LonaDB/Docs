@@ -14,4 +14,4 @@ Contributions to the LonaDB project are welcome! If you encounter any issues or 
 
 ## License
 
-This project is licensed under the [AGPL-3.0 License](LICENSE). Feel free to use, modify, and distribute it
+This project is licensed under the [AGPL-3.0 License](https://github.com/LonaDB/Hadro/blob/main/LICENSE). Feel free to use, modify, and distribute it
