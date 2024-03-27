@@ -1,20 +1,30 @@
+# Prerequisites
+Make sure you have curl installed.<br/>
+If not: 
+```bash 
+sudo apt-get install curl
+```
+
 # Installation
 
-## To install the LonaDB Webinterface, you first need to clone the Repository and go into the directory
+## 1. Run the install script with sudo:
+
 ```bash
-git clone https://github.com/LonaDB/Webinterface
-cd Webinterface
+sudo curl -fsSL https://lona-development.org/download/install-webinterface.sh | sh
 ```
 
-## Install the NPM Packages
+## 2. Configure everything:
+
+Please copy the ``config.json.example`` file and name it ``config.json``. Then insert your wanted configuration!
+
+## 3. Start the Webinterface:
+
+Now you just have to start the Webinterface
 ```bash
-npm install
+./start.sh
 ```
 
-## Run the server and go through the Setup
-```bash
-node webinterface
-```
+## 4. Use your Webinterface:
 
-## Use it!
-Thats it. The installation can't get easier!
+Thats it! 
+You have your own LonaDB Webinterface!
